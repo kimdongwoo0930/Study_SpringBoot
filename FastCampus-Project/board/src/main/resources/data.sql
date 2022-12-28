@@ -123,4 +123,10 @@ insert into article (title, content, hashtag, created_by, modified_by, created_a
 insert into article (title, content, hashtag, created_by, modified_by, created_at, modified_at) values ('Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.', 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.', null, 'Reta', 'Rena', '2022-11-07 03:08:48', '2022-05-22 22:02:41');
 
 
+insert into user_account (user_id, user_password, nickname, email, memo, created_at, created_by, modified_at, modified_by) values
+    ('uno', '{noop}asdf1234', 'Uno', 'uno@mail.com', 'I am Uno.', now(), 'uno', now(), 'uno')
+;
+insert into user_account (user_id, user_password, nickname, email, memo, created_at, created_by, modified_at, modified_by) values
+    ('uno2', '{noop}asdf1234', 'Uno2', 'uno2@mail.com', 'I am Uno2.', now(), 'uno2', now(), 'uno2')
+;
 
