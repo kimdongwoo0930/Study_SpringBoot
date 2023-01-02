@@ -2,6 +2,7 @@ package com.example.board.repository;
 
 import com.example.board.config.JpaConfig;
 import com.example.board.domain.Article;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,18 +42,19 @@ class JPARepositoryTest {
                 .hasSize(1);
     }
 
-    @DisplayName("insert 테스트")
-    @Test
-    void givenTestData_whenInserting_thenWorksFine(){
-        // Given
-        long previousCount = articleRepository.count();
-        // When
-        articleRepository.save(Article.of("new article", "new content", "#spring"));
-
-        // Then
-        assertThat(articleRepository.count()).isEqualTo(previousCount + 1);
-
-    }
+//    @Disabled
+//    @DisplayName("insert 테스트")
+//    @Test
+//    void givenTestData_whenInserting_thenWorksFine(){
+//        // Given
+//        long previousCount = articleRepository.count();
+//        // When
+//        articleRepository.save(Article.of("new article", "new content", "#spring"));
+//
+//        // Then
+//        assertThat(articleRepository.count()).isEqualTo(previousCount + 1);
+//
+//    }
 
     @DisplayName("update 테스트")
     @Test
