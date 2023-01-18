@@ -1,7 +1,7 @@
-package com.example.a_mu_geo_na.domain.Account;
+package com.example.a_mu_geo_na.Account.Entity;
 
 
-import com.example.a_mu_geo_na.domain.BaseTimeEntity;
+import com.example.a_mu_geo_na.Account.Entity.Enum.Role;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.security.crypto.password.PasswordEncoder;

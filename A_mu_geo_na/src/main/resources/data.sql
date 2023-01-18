@@ -1,0 +1,1 @@
+INSERT INTO account (user_id, user_password, nickname, role, created_date, modified_date) values ('admin','$2a$10$5XtaSLld7AITUq7dRlQ.HO252igD7beuSvYjCEff2C8EK4117WNDe', 'admin', 'USER',now(),now() );

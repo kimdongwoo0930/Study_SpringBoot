@@ -1,4 +1,4 @@
-package com.example.a_mu_geo_na.domain.config;
+package com.example.a_mu_geo_na.Account.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,6 +1,6 @@
-package com.example.a_mu_geo_na.domain.service;
+package com.example.a_mu_geo_na.Account.service;
 
-import com.example.a_mu_geo_na.domain.repository.AccountRepository;
+import com.example.a_mu_geo_na.Account.repository.AccountRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -1,5 +1,7 @@
-package com.example.a_mu_geo_na.domain.Account;
+package com.example.a_mu_geo_na.Account.Entity.Dto;
 
+import com.example.a_mu_geo_na.Account.Entity.Account;
+import com.example.a_mu_geo_na.Account.Entity.Enum.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
